@@ -1,0 +1,13 @@
+<h1>Product Catalog RSC Demo</h1>
+
+<p>
+  This page demonstrates nested server components with streaming.
+  Product cards render immediately, while review summaries stream in as async chunks.
+</p>
+
+<%= stream_react_component("ProductCatalog", props: @product_catalog_props, prerender: true) %>
+
+<hr>
+<p>
+  <a href="/hello_server">Back to HelloServer demo</a>
+</p>
