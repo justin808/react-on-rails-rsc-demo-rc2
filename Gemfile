@@ -14,7 +14,7 @@ gem "importmap-rails"
 gem "turbo-rails"
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
-gem "shakapacker", "9.6.0.beta.0"
+gem "shakapacker", "9.6.1"
 gem "react_on_rails", "16.4.0.rc.4"
 gem "react_on_rails_pro", "16.4.0.rc.4"
 
